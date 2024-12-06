@@ -1,0 +1,112 @@
+:root {
+  --logo-color-blue: #4d5ae5;
+  --footer-color: #2e2f42;
+  --change: #404bbf;
+  --contacts: #434455;
+  --section-color: #ffffff;
+  --footer-logo: #f4f4fd;
+  --pageColor: #e7e9fc;
+  --foot-svg: #31d0aa;
+  --input-color: #8e8f99;
+  --background-var: rgba(46, 47, 66, 0.7);
+  --transition-: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 320px;
+  margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.header-nav {
+}
+.header-logo {
+  width: Hug (115px) px;
+  height: Fixed (24px) px;
+  top: 16px;
+  left: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e2f42;
+}
+.header-logo .header-logo-color {
+  color: #4d5ae5;
+}
+.header-menu-list {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.header-soc-list {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.header-soc-item {
+}
+.header-soc-link {
+}
