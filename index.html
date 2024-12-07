@@ -14,61 +14,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <nav class="header-nav">
-        <a href="" class="header-logo"
-          ><span class="header-logo-color">WEB</span>STUDIO</a
-        >
-        <ul class="header-menu-list">
-          <li class="header-menu-item">
-            <a href="./index.html" class="header-menu-link">Studio</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="" class="header-menu-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="header-soc-list">
-        <li class="header-soc-item">
-          <a
-            href=""
-            class="header-soc-link"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            >info@devstudio.com</a
+      <div class="wrap">
+        <nav class="header-nav">
+          <a href="" class="header-logo"
+            ><span class="header-logo-color">WEB</span>STUDIO</a
           >
-        </li>
-        <li class="header-soc-item">
-          <a
-            href=""
-            class="header-soc-link"
-            rel="noopener noreferrer nofollow"
-            target="_blank"
-            >+11 (000) 111-11-11</a
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-menu-link">Studio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./portfolio.html" class="header-menu-link">Portfolio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="" class="header-menu-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-right-part">
+          <ul class="header-soc-list">
+            <li class="header-soc-item">
+              <a
+                href=""
+                class="header-soc-link"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-soc-item">
+              <a
+                href=""
+                class="header-soc-link"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <button
+            title="mobile-open-btn"
+            class="modal-open-btn"
+            width="24"
+            height="24"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
           >
-        </li>
-      </ul>
-      <button
-        title="mobile-open-btn"
-        class="modal-open-btn"
-        width="24"
-        height="24"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="modal-open-icon">
-          <use href="images/icons.svg#icon-hamburger-header-menu" />
-        </svg>
-      </button>
+            <svg class="modal-open-icon">
+              <use href="images/icons.svg#icon-hamburger-header-menu" />
+            </svg>
+          </button>
+        </div>
+      </div>
     </header>
   </body>
 </html>
